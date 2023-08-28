@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7A128C74-3817-4789-86DE-4B0B85BC19FB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74EBA7C9-38AA-48C9-B82C-AC55F0DB806F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeSplit/TempView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "result"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BDC70C3-5FC6-4108-9B96-239E2D954AB2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeSplit/TempView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "result"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "4BDC70C3-5FC6-4108-9B96-239E2D954AB2 - 64aed6339dc1cfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeSplit.TempView.result.getter : Swift.Double"
+                  moduleName = "WeSplit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michailshakhvorostov/Documents/Programming/100DaysOfSwiftUI/Lessons_1/WeSplit/WeSplit/TempView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "4BDC70C3-5FC6-4108-9B96-239E2D954AB2 - 64aed6339dc1cfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeSplit.TempView.result.getter : Swift.Double"
+                  moduleName = "WeSplit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/michailshakhvorostov/Documents/Programming/100DaysOfSwiftUI/Lessons_1/WeSplit/WeSplit/TempView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
