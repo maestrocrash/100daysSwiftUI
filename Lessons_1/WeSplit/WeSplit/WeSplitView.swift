@@ -6,10 +6,23 @@
 //
 
 import SwiftUI
+import Charts
 
 
 
 struct WeSplitView: View {
+    
+    struct ToyShape: Identifiable {
+        var type: String
+        var count: Double
+        var id = UUID()
+    }
+    
+    var data: [ToyShape] = [
+        .init(type: "Cube", count: 5),
+        .init(type: "Sphere", count: 4),
+        .init(type: "Pyramid", count: 4)
+    ]
     
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
@@ -67,6 +80,23 @@ struct WeSplitView: View {
                 
                 Section("Check") {
                     Text(totalAmoutAndTip, format: currencyInApp)
+                }
+                
+                Section("Charts") {
+                    Chart {
+                        BarMark(
+                            x: .value("Shape Type", data[0].type),
+                            y: .value("Total Count", data[0].count)
+                        )
+                        BarMark(
+                             x: .value("Shape Type", data[1].type),
+                             y: .value("Total Count", data[1].count)
+                        )
+                        BarMark(
+                             x: .value("Shape Type", data[2].type),
+                             y: .value("Total Count", data[2].count)
+                        )
+                    }
                 }
             }
             
