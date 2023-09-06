@@ -49,19 +49,17 @@ struct GuessFlagView: View {
                     
                     ForEach(0..<3) { number in
                         Button {
-                            print(number)
                             tapFlag(number)
-                            print(countries[correctAnswer])
-                            print(correctAnswer)
-                        
-                            
                         } label: {
-                            Image(countries[number])
-                                .renderingMode(.original)
-                                .clipShape(Capsule())
-                                .shadow(radius: 10)
                             
-                               // .border(.gray, width: 1)
+                    
+                            imageFlag(name: countries[number])
+                                
+                            
+//                            Image(countries[number])
+//                                .renderingMode(.original)
+//                                .clipShape(Capsule())
+//                                .shadow(radius: 10)
                         }
                         .confettiCannon(counter: $score, fadesOut: true)
                         .confettiCannon(counter: $score, confettis: [.image("\(countries[correctAnswer])")], confettiSize: 20)
@@ -99,7 +97,6 @@ extension GuessFlagView {
     func tapFlag(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
-            
             score += 1
             answerMessage = "Your you score \(score)"
         } else {

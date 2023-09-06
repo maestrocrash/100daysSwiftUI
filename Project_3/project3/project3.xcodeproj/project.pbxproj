@@ -7,82 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D37F72662AA1D6AE0088CDDF /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = D37F72652AA1D6AE0088CDDF /* ConfettiSwiftUI */; };
-		D3C7FC152A9F4E8400337F76 /* GuessFlagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7FC142A9F4E8400337F76 /* GuessFlagView.swift */; };
-		D3D9BB602A9CD54500377863 /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB5F2A9CD54500377863 /* GuessTheFlagApp.swift */; };
-		D3D9BB622A9CD54500377863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB612A9CD54500377863 /* ContentView.swift */; };
-		D3D9BB642A9CD54600377863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D9BB632A9CD54600377863 /* Assets.xcassets */; };
-		D3D9BB672A9CD54600377863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D9BB662A9CD54600377863 /* Preview Assets.xcassets */; };
-		D3D9BB6E2A9CDB9A00377863 /* ColorBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB6D2A9CDB9A00377863 /* ColorBorder.swift */; };
-		D3D9BB702A9E001100377863 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB6F2A9E001100377863 /* Gradients.swift */; };
-		D3D9BB722A9E186A00377863 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB712A9E186A00377863 /* ButtonView.swift */; };
-		D3D9BB742A9E562100377863 /* ShowMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9BB732A9E562100377863 /* ShowMessageView.swift */; };
-		D3F09C9C2AA8A5E10062A4A9 /* CustomFlagModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C9B2AA8A5E10062A4A9 /* CustomFlagModifier.swift */; };
+		D3F09C842AA733E20062A4A9 /* project3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C832AA733E20062A4A9 /* project3App.swift */; };
+		D3F09C862AA733E20062A4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C852AA733E20062A4A9 /* ContentView.swift */; };
+		D3F09C882AA733E40062A4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F09C872AA733E40062A4A9 /* Assets.xcassets */; };
+		D3F09C8B2AA733E40062A4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F09C8A2AA733E40062A4A9 /* Preview Assets.xcassets */; };
+		D3F09C922AA872380062A4A9 /* viewProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C912AA872380062A4A9 /* viewProperties.swift */; };
+		D3F09C942AA874E30062A4A9 /* viewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C932AA874E30062A4A9 /* viewComposition.swift */; };
+		D3F09C962AA876C60062A4A9 /* capsuleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C952AA876C60062A4A9 /* capsuleText.swift */; };
+		D3F09C982AA8779B0062A4A9 /* customModifitied.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C972AA8779B0062A4A9 /* customModifitied.swift */; };
+		D3F09C9A2AA88D170062A4A9 /* customContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C992AA88D170062A4A9 /* customContainers.swift */; };
+		D3F09C9E2AA8D0C60062A4A9 /* customTitleBlueLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F09C9D2AA8D0C60062A4A9 /* customTitleBlueLarge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D3C7FC142A9F4E8400337F76 /* GuessFlagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessFlagView.swift; sourceTree = "<group>"; };
-		D3D9BB5C2A9CD54500377863 /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D9BB5F2A9CD54500377863 /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
-		D3D9BB612A9CD54500377863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D3D9BB632A9CD54600377863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3D9BB662A9CD54600377863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D3D9BB6D2A9CDB9A00377863 /* ColorBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBorder.swift; sourceTree = "<group>"; };
-		D3D9BB6F2A9E001100377863 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
-		D3D9BB712A9E186A00377863 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		D3D9BB732A9E562100377863 /* ShowMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMessageView.swift; sourceTree = "<group>"; };
-		D3F09C9B2AA8A5E10062A4A9 /* CustomFlagModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlagModifier.swift; sourceTree = "<group>"; };
+		D3F09C802AA733E20062A4A9 /* project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F09C832AA733E20062A4A9 /* project3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = project3App.swift; sourceTree = "<group>"; };
+		D3F09C852AA733E20062A4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3F09C872AA733E40062A4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F09C8A2AA733E40062A4A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3F09C912AA872380062A4A9 /* viewProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewProperties.swift; sourceTree = "<group>"; };
+		D3F09C932AA874E30062A4A9 /* viewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewComposition.swift; sourceTree = "<group>"; };
+		D3F09C952AA876C60062A4A9 /* capsuleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = capsuleText.swift; sourceTree = "<group>"; };
+		D3F09C972AA8779B0062A4A9 /* customModifitied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customModifitied.swift; sourceTree = "<group>"; };
+		D3F09C992AA88D170062A4A9 /* customContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customContainers.swift; sourceTree = "<group>"; };
+		D3F09C9D2AA8D0C60062A4A9 /* customTitleBlueLarge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTitleBlueLarge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D3D9BB592A9CD54500377863 /* Frameworks */ = {
+		D3F09C7D2AA733E20062A4A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37F72662AA1D6AE0088CDDF /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3D9BB532A9CD54500377863 = {
+		D3F09C772AA733E20062A4A9 = {
 			isa = PBXGroup;
 			children = (
-				D3D9BB5E2A9CD54500377863 /* GuessTheFlag */,
-				D3D9BB5D2A9CD54500377863 /* Products */,
+				D3F09C822AA733E20062A4A9 /* project3 */,
+				D3F09C812AA733E20062A4A9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D3D9BB5D2A9CD54500377863 /* Products */ = {
+		D3F09C812AA733E20062A4A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3D9BB5C2A9CD54500377863 /* GuessTheFlag.app */,
+				D3F09C802AA733E20062A4A9 /* project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3D9BB5E2A9CD54500377863 /* GuessTheFlag */ = {
+		D3F09C822AA733E20062A4A9 /* project3 */ = {
 			isa = PBXGroup;
 			children = (
-				D3D9BB5F2A9CD54500377863 /* GuessTheFlagApp.swift */,
-				D3C7FC142A9F4E8400337F76 /* GuessFlagView.swift */,
-				D3F09C9B2AA8A5E10062A4A9 /* CustomFlagModifier.swift */,
-				D3D9BB612A9CD54500377863 /* ContentView.swift */,
-				D3D9BB6D2A9CDB9A00377863 /* ColorBorder.swift */,
-				D3D9BB6F2A9E001100377863 /* Gradients.swift */,
-				D3D9BB712A9E186A00377863 /* ButtonView.swift */,
-				D3D9BB732A9E562100377863 /* ShowMessageView.swift */,
-				D3D9BB632A9CD54600377863 /* Assets.xcassets */,
-				D3D9BB652A9CD54600377863 /* Preview Content */,
+				D3F09C832AA733E20062A4A9 /* project3App.swift */,
+				D3F09C852AA733E20062A4A9 /* ContentView.swift */,
+				D3F09C912AA872380062A4A9 /* viewProperties.swift */,
+				D3F09C932AA874E30062A4A9 /* viewComposition.swift */,
+				D3F09C972AA8779B0062A4A9 /* customModifitied.swift */,
+				D3F09C9D2AA8D0C60062A4A9 /* customTitleBlueLarge.swift */,
+				D3F09C992AA88D170062A4A9 /* customContainers.swift */,
+				D3F09C952AA876C60062A4A9 /* capsuleText.swift */,
+				D3F09C872AA733E40062A4A9 /* Assets.xcassets */,
+				D3F09C892AA733E40062A4A9 /* Preview Content */,
 			);
-			path = GuessTheFlag;
+			path = project3;
 			sourceTree = "<group>";
 		};
-		D3D9BB652A9CD54600377863 /* Preview Content */ = {
+		D3F09C892AA733E40062A4A9 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D3D9BB662A9CD54600377863 /* Preview Assets.xcassets */,
+				D3F09C8A2AA733E40062A4A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -90,42 +88,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3D9BB5B2A9CD54500377863 /* GuessTheFlag */ = {
+		D3F09C7F2AA733E20062A4A9 /* project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D9BB6A2A9CD54600377863 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = D3F09C8E2AA733E40062A4A9 /* Build configuration list for PBXNativeTarget "project3" */;
 			buildPhases = (
-				D3D9BB582A9CD54500377863 /* Sources */,
-				D3D9BB592A9CD54500377863 /* Frameworks */,
-				D3D9BB5A2A9CD54500377863 /* Resources */,
+				D3F09C7C2AA733E20062A4A9 /* Sources */,
+				D3F09C7D2AA733E20062A4A9 /* Frameworks */,
+				D3F09C7E2AA733E20062A4A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
-			packageProductDependencies = (
-				D37F72652AA1D6AE0088CDDF /* ConfettiSwiftUI */,
-			);
-			productName = GuessTheFlag;
-			productReference = D3D9BB5C2A9CD54500377863 /* GuessTheFlag.app */;
+			name = project3;
+			productName = project3;
+			productReference = D3F09C802AA733E20062A4A9 /* project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D3D9BB542A9CD54500377863 /* Project object */ = {
+		D3F09C782AA733E20062A4A9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					D3D9BB5B2A9CD54500377863 = {
+					D3F09C7F2AA733E20062A4A9 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = D3D9BB572A9CD54500377863 /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = D3F09C7B2AA733E20062A4A9 /* Build configuration list for PBXProject "project3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,51 +128,48 @@
 				en,
 				Base,
 			);
-			mainGroup = D3D9BB532A9CD54500377863;
-			packageReferences = (
-				D37F72642AA1D6AE0088CDDF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
-			);
-			productRefGroup = D3D9BB5D2A9CD54500377863 /* Products */;
+			mainGroup = D3F09C772AA733E20062A4A9;
+			productRefGroup = D3F09C812AA733E20062A4A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3D9BB5B2A9CD54500377863 /* GuessTheFlag */,
+				D3F09C7F2AA733E20062A4A9 /* project3 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3D9BB5A2A9CD54500377863 /* Resources */ = {
+		D3F09C7E2AA733E20062A4A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D9BB672A9CD54600377863 /* Preview Assets.xcassets in Resources */,
-				D3D9BB642A9CD54600377863 /* Assets.xcassets in Resources */,
+				D3F09C8B2AA733E40062A4A9 /* Preview Assets.xcassets in Resources */,
+				D3F09C882AA733E40062A4A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3D9BB582A9CD54500377863 /* Sources */ = {
+		D3F09C7C2AA733E20062A4A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D9BB722A9E186A00377863 /* ButtonView.swift in Sources */,
-				D3C7FC152A9F4E8400337F76 /* GuessFlagView.swift in Sources */,
-				D3D9BB622A9CD54500377863 /* ContentView.swift in Sources */,
-				D3D9BB742A9E562100377863 /* ShowMessageView.swift in Sources */,
-				D3D9BB6E2A9CDB9A00377863 /* ColorBorder.swift in Sources */,
-				D3D9BB602A9CD54500377863 /* GuessTheFlagApp.swift in Sources */,
-				D3D9BB702A9E001100377863 /* Gradients.swift in Sources */,
-				D3F09C9C2AA8A5E10062A4A9 /* CustomFlagModifier.swift in Sources */,
+				D3F09C862AA733E20062A4A9 /* ContentView.swift in Sources */,
+				D3F09C982AA8779B0062A4A9 /* customModifitied.swift in Sources */,
+				D3F09C842AA733E20062A4A9 /* project3App.swift in Sources */,
+				D3F09C962AA876C60062A4A9 /* capsuleText.swift in Sources */,
+				D3F09C922AA872380062A4A9 /* viewProperties.swift in Sources */,
+				D3F09C9E2AA8D0C60062A4A9 /* customTitleBlueLarge.swift in Sources */,
+				D3F09C942AA874E30062A4A9 /* viewComposition.swift in Sources */,
+				D3F09C9A2AA88D170062A4A9 /* customContainers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D3D9BB682A9CD54600377863 /* Debug */ = {
+		D3F09C8C2AA733E40062A4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		D3D9BB692A9CD54600377863 /* Release */ = {
+		D3F09C8D2AA733E40062A4A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,14 +288,14 @@
 			};
 			name = Release;
 		};
-		D3D9BB6B2A9CD54600377863 /* Debug */ = {
+		D3F09C8F2AA733E40062A4A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"project3/Preview Content\"";
 				DEVELOPMENT_TEAM = ATN68Q8Z3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -317,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Shakhvorostov-Michail.GuessTheFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shakhvorostov-Michail.project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,14 +317,14 @@
 			};
 			name = Debug;
 		};
-		D3D9BB6C2A9CD54600377863 /* Release */ = {
+		D3F09C902AA733E40062A4A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"project3/Preview Content\"";
 				DEVELOPMENT_TEAM = ATN68Q8Z3E;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -346,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Shakhvorostov-Michail.GuessTheFlag";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shakhvorostov-Michail.project3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -357,44 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3D9BB572A9CD54500377863 /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		D3F09C7B2AA733E20062A4A9 /* Build configuration list for PBXProject "project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D9BB682A9CD54600377863 /* Debug */,
-				D3D9BB692A9CD54600377863 /* Release */,
+				D3F09C8C2AA733E40062A4A9 /* Debug */,
+				D3F09C8D2AA733E40062A4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D9BB6A2A9CD54600377863 /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		D3F09C8E2AA733E40062A4A9 /* Build configuration list for PBXNativeTarget "project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D9BB6B2A9CD54600377863 /* Debug */,
-				D3D9BB6C2A9CD54600377863 /* Release */,
+				D3F09C8F2AA733E40062A4A9 /* Debug */,
+				D3F09C902AA733E40062A4A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D37F72642AA1D6AE0088CDDF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D37F72652AA1D6AE0088CDDF /* ConfettiSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D37F72642AA1D6AE0088CDDF /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
-			productName = ConfettiSwiftUI;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D3D9BB542A9CD54500377863 /* Project object */;
+	rootObject = D3F09C782AA733E20062A4A9 /* Project object */;
 }

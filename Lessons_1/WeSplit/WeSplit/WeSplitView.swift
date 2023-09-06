@@ -81,22 +81,27 @@ struct WeSplitView: View {
                 Section("Check") {
                     Text(totalAmoutAndTip, format: currencyInApp)
                 }
+                .foregroundStyle(tipPercentage == 0 ? .red : .black)
                 
                 Section("Charts") {
                     Chart {
                         BarMark(
-                            x: .value("Shape Type", data[0].type),
-                            y: .value("Total Count", data[0].count)
+                            x: .value("Shape Type", "Tip"),
+                            y: .value("Total Count", totalAmoutAndTip - checkAmount)
                         )
+                        .foregroundStyle(.green)
                         BarMark(
-                             x: .value("Shape Type", data[1].type),
-                             y: .value("Total Count", data[1].count)
+                             x: .value("Shape Type", "PerPersone"),
+                             y: .value("Total Count", totalPerPerson)
                         )
+                        .foregroundStyle(.yellow)
                         BarMark(
-                             x: .value("Shape Type", data[2].type),
-                             y: .value("Total Count", data[2].count)
+                             x: .value("Shape Type", "Check"),
+                             y: .value("Total Count", totalAmoutAndTip)
                         )
+                        .foregroundStyle(.purple)
                     }
+                    
                 }
             }
             
