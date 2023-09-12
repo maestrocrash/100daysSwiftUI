@@ -11,7 +11,7 @@ import SwiftUI
 struct project4App: App {
     var body: some Scene {
         WindowGroup {
-            StepperView()
+            TraineCoreML()
         }
     }
 }

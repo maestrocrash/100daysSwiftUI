@@ -29,7 +29,36 @@ struct TraineCoreML: View {
     
     var timeSleep: String{
         
-        return "Your ideal bedtime is \(calculateRestTime())"
+        do {
+            let config = MLModelConfiguration()
+            let model = try SleepCalcalutor(configuration: config)
+            
+            let components = Calendar.current.dateComponents([.hour, .minute], from: wakeUp)
+            let hours = (components.hour ?? 0) * 60 * 60
+            let minute = (components.minute ?? 0) * 60
+            
+            
+            let prediction = try model.prediction(wake: Double(hours + minute), estimatedSleep: sleepAmount, coffee: Double(coffeAmount))
+            
+            let sleepTime = wakeUp - prediction.actualSleep
+            titleAlert = "Your ideal bedtime is ..."
+            messageAlert = sleepTime.formatted(date: .omitted, time: .shortened)
+        } catch {
+            titleAlert = "Error"
+            messageAlert = "Sorry, there was a problem calculating your bedtime."
+        }
+        statusAlert = true
+        
+        return messageAlert
+        
+//        let components = Calendar.current.dateComponents([.hour, .minute], from: wakeUp)
+//        let hours = (components.hour ?? 0) * 60 * 60
+//        let minute = (components.minute ?? 0) * 60
+//        
+//        
+//        var testText = Calendar.current.date(from: components) ?? Date.now
+//        
+//        return "Your ideal bedtime is \(testText.formatted(date: .omitted, time: .shortened))"
         
     }
     
@@ -45,9 +74,7 @@ struct TraineCoreML: View {
                     DatePicker("Pleate enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
                         .labelsHidden()
                 }
-                
-               
-                
+
                 Section("Desire amount of sleep") {
                     Stepper("\(sleepAmount.formatted()) hours", value: $sleepAmount, in: 4...12, step: 0.25)
                 }
