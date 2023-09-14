@@ -15,6 +15,9 @@ struct GuessFlagView: View {
     @State private var scoreTitle = ""
     @State private var score = 0
     @State private var answerMessage = ""
+    @State private var animationAmount = 0.0
+    @State private var trueAnswer = false
+    
     
     @State private var countries = ["Estonia", "Poland", "Russia", "US", "UK", "Nigeria", "Spain", "France", "Germany", "Ireland", "Italy"].shuffled()
     
@@ -49,26 +52,39 @@ struct GuessFlagView: View {
                     
                     ForEach(0..<3) { number in
                         Button {
-                            tapFlag(number)
+                            
+                            if tapFlag(number) {
+                                withAnimation {
+                                    animationAmount -= 360
+                                   // tapFlag(number)
+                                    askForQuestion()
+                                }
+                            }
+                            
                         } label: {
-                            
-                    
+
                             imageFlag(name: countries[number])
-                                
-                            
+                      
 //                            Image(countries[number])
 //                                .renderingMode(.original)
 //                                .clipShape(Capsule())
 //                                .shadow(radius: 10)
                         }
-                        .confettiCannon(counter: $score, fadesOut: true)
-                        .confettiCannon(counter: $score, confettis: [.image("\(countries[correctAnswer])")], confettiSize: 20)
+                        .animation(.easeIn, value: trueAnswer)
+                        //.opacity(trueAnswer ? 1 : 0.5)
+                        .rotation3DEffect(
+                            .degrees(animationAmount),
+                            axis: (x: 0.0, y: 1.0, z: 0.0)
+                        )
+                        //.confettiCannon(counter: $score, fadesOut: true)
+                      //  .confettiCannon(counter: $score, confettis: [.image("\(countries[correctAnswer])")], confettiSize: 20)
                     }
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 20)
                 .background(.ultraThinMaterial)
                 .clipShape(RoundedRectangle(cornerSize: CGSize(width: 20, height: 20)))
+                
                 
                 Spacer()
                 
@@ -79,7 +95,7 @@ struct GuessFlagView: View {
             .padding(20)
             
             
-        }
+        }/*
         .alert("Your answer - \(scoreTitle)", isPresented: $showningScore) {
             Button("Continue") {
                 askForQuestion()
@@ -87,6 +103,7 @@ struct GuessFlagView: View {
         } message: {
             Text(answerMessage)
         }
+          */
     }
     
 }
@@ -94,17 +111,21 @@ struct GuessFlagView: View {
 
 extension GuessFlagView {
     
-    func tapFlag(_ number: Int) {
+    func tapFlag(_ number: Int) -> Bool {
         if number == correctAnswer {
             scoreTitle = "Correct"
             score += 1
             answerMessage = "Your you score \(score)"
+            trueAnswer = true
         } else {
             scoreTitle = "Wrong"
             answerMessage = "This is flag - \(countries[number])"
+            trueAnswer = false
         }
         showningScore = true
-        print(scoreTitle)
+        
+        return trueAnswer
+       // print(scoreTitle)
     }
     
     

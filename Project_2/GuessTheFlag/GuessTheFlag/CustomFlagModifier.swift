@@ -18,6 +18,8 @@ struct ImageFlag: ViewModifier {
             .renderingMode(.original)
             .clipShape(Capsule())
             .shadow(radius: 10)
+            
+            
     }
     
     
