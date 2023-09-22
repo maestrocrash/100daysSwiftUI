@@ -11,6 +11,10 @@
 		D35FAB632AB8825C00FE9627 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35FAB622AB8825C00FE9627 /* ContentView.swift */; };
 		D35FAB652AB8825D00FE9627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35FAB642AB8825D00FE9627 /* Assets.xcassets */; };
 		D35FAB682AB8825D00FE9627 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35FAB672AB8825D00FE9627 /* Preview Assets.xcassets */; };
+		D3BA684D2AB99E2800E15222 /* ScrollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA684C2AB99E2800E15222 /* ScrollData.swift */; };
+		D3BA684F2AB9A41700E15222 /* PushingNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA684E2AB9A41700E15222 /* PushingNewView.swift */; };
+		D3BA68512AB9AAF300E15222 /* CodableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA68502AB9AAF300E15222 /* CodableData.swift */; };
+		D3BA68532AB9CE1E00E15222 /* ScrollingGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BA68522AB9CE1E00E15222 /* ScrollingGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D35FAB622AB8825C00FE9627 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D35FAB642AB8825D00FE9627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35FAB672AB8825D00FE9627 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3BA684C2AB99E2800E15222 /* ScrollData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollData.swift; sourceTree = "<group>"; };
+		D3BA684E2AB9A41700E15222 /* PushingNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewView.swift; sourceTree = "<group>"; };
+		D3BA68502AB9AAF300E15222 /* CodableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableData.swift; sourceTree = "<group>"; };
+		D3BA68522AB9CE1E00E15222 /* ScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				D35FAB602AB8825C00FE9627 /* Project_8App.swift */,
 				D35FAB622AB8825C00FE9627 /* ContentView.swift */,
+				D3BA684C2AB99E2800E15222 /* ScrollData.swift */,
+				D3BA684E2AB9A41700E15222 /* PushingNewView.swift */,
+				D3BA68502AB9AAF300E15222 /* CodableData.swift */,
+				D3BA68522AB9CE1E00E15222 /* ScrollingGrid.swift */,
 				D35FAB642AB8825D00FE9627 /* Assets.xcassets */,
 				D35FAB662AB8825D00FE9627 /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				D35FAB632AB8825C00FE9627 /* ContentView.swift in Sources */,
 				D35FAB612AB8825C00FE9627 /* Project_8App.swift in Sources */,
+				D3BA684F2AB9A41700E15222 /* PushingNewView.swift in Sources */,
+				D3BA68532AB9CE1E00E15222 /* ScrollingGrid.swift in Sources */,
+				D3BA684D2AB99E2800E15222 /* ScrollData.swift in Sources */,
+				D3BA68512AB9AAF300E15222 /* CodableData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
