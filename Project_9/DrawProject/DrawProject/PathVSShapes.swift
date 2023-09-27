@@ -49,12 +49,12 @@ struct Arc: InsettableShape {
 
 struct PathVSShapes: View {
     var body: some View {
-//        Triangle()
-//            .fill(.pink)
-//            .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
-//            .frame(width: 200, height: 200)
-//        
-//        Spacer()
+        Triangle()
+            .fill(.pink)
+            .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
+            .frame(width: 200, height: 200)
+        
+        Spacer()
 //        
 //        Arc(startAngle: .degrees(0), endAngle: .degrees(240), clockwise: true)
 //            .stroke(.blue, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))

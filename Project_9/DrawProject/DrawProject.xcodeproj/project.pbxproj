@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D35505382AC194CB004F42F2 /* TransformingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35505372AC194CB004F42F2 /* TransformingShape.swift */; };
+		D355053A2AC19E21004F42F2 /* ImagePaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35505392AC19E21004F42F2 /* ImagePaint.swift */; };
+		D355053C2AC1B500004F42F2 /* MetalViewDrawning.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355053B2AC1B500004F42F2 /* MetalViewDrawning.swift */; };
+		D355053E2AC1B9D5004F42F2 /* SpecialEffectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355053D2AC1B9D5004F42F2 /* SpecialEffectsView.swift */; };
+		D35505402AC1C08B004F42F2 /* AnimatingSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D355053F2AC1C08B004F42F2 /* AnimatingSimple.swift */; };
+		D35505422AC1C7A6004F42F2 /* AnimationComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35505412AC1C7A6004F42F2 /* AnimationComplex.swift */; };
+		D35505442AC2C059004F42F2 /* SpirogrphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35505432AC2C059004F42F2 /* SpirogrphView.swift */; };
+		D35505462AC2CE5F004F42F2 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35505452AC2CE5F004F42F2 /* ArrowView.swift */; };
 		D3AF3E992ABDADCE008C5CCA /* DrawProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF3E982ABDADCE008C5CCA /* DrawProjectApp.swift */; };
 		D3AF3E9B2ABDADCE008C5CCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AF3E9A2ABDADCE008C5CCA /* ContentView.swift */; };
 		D3AF3E9D2ABDADCF008C5CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3AF3E9C2ABDADCF008C5CCA /* Assets.xcassets */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D35505372AC194CB004F42F2 /* TransformingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingShape.swift; sourceTree = "<group>"; };
+		D35505392AC19E21004F42F2 /* ImagePaint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaint.swift; sourceTree = "<group>"; };
+		D355053B2AC1B500004F42F2 /* MetalViewDrawning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewDrawning.swift; sourceTree = "<group>"; };
+		D355053D2AC1B9D5004F42F2 /* SpecialEffectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffectsView.swift; sourceTree = "<group>"; };
+		D355053F2AC1C08B004F42F2 /* AnimatingSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingSimple.swift; sourceTree = "<group>"; };
+		D35505412AC1C7A6004F42F2 /* AnimationComplex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationComplex.swift; sourceTree = "<group>"; };
+		D35505432AC2C059004F42F2 /* SpirogrphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirogrphView.swift; sourceTree = "<group>"; };
+		D35505452AC2CE5F004F42F2 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
 		D3AF3E952ABDADCE008C5CCA /* DrawProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3AF3E982ABDADCE008C5CCA /* DrawProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawProjectApp.swift; sourceTree = "<group>"; };
 		D3AF3E9A2ABDADCE008C5CCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +72,14 @@
 				D3AF3E982ABDADCE008C5CCA /* DrawProjectApp.swift */,
 				D3AF3E9A2ABDADCE008C5CCA /* ContentView.swift */,
 				D3AF3EA62ABDB542008C5CCA /* PathVSShapes.swift */,
+				D35505372AC194CB004F42F2 /* TransformingShape.swift */,
+				D35505392AC19E21004F42F2 /* ImagePaint.swift */,
+				D355053B2AC1B500004F42F2 /* MetalViewDrawning.swift */,
+				D355053D2AC1B9D5004F42F2 /* SpecialEffectsView.swift */,
+				D355053F2AC1C08B004F42F2 /* AnimatingSimple.swift */,
+				D35505412AC1C7A6004F42F2 /* AnimationComplex.swift */,
+				D35505432AC2C059004F42F2 /* SpirogrphView.swift */,
+				D35505452AC2CE5F004F42F2 /* ArrowView.swift */,
 				D3AF3E9C2ABDADCF008C5CCA /* Assets.xcassets */,
 				D3AF3E9E2ABDADCF008C5CCA /* Preview Content */,
 			);
@@ -140,7 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D355053C2AC1B500004F42F2 /* MetalViewDrawning.swift in Sources */,
+				D35505442AC2C059004F42F2 /* SpirogrphView.swift in Sources */,
 				D3AF3E9B2ABDADCE008C5CCA /* ContentView.swift in Sources */,
+				D35505402AC1C08B004F42F2 /* AnimatingSimple.swift in Sources */,
+				D355053A2AC19E21004F42F2 /* ImagePaint.swift in Sources */,
+				D35505422AC1C7A6004F42F2 /* AnimationComplex.swift in Sources */,
+				D35505462AC2CE5F004F42F2 /* ArrowView.swift in Sources */,
+				D355053E2AC1B9D5004F42F2 /* SpecialEffectsView.swift in Sources */,
+				D35505382AC194CB004F42F2 /* TransformingShape.swift in Sources */,
 				D3AF3EA72ABDB542008C5CCA /* PathVSShapes.swift in Sources */,
 				D3AF3E992ABDADCE008C5CCA /* DrawProjectApp.swift in Sources */,
 			);
