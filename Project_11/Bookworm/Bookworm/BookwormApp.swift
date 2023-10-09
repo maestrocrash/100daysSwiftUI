@@ -1,6 +1,6 @@
 //
-//  Project_11App.swift
-//  Project_11
+//  BookwormApp.swift
+//  Bookworm
 //
 //  Created by MICHAIL SHAKHVOROSTOV on 02.10.2023.
 //
@@ -8,12 +8,12 @@
 import SwiftUI
 
 @main
-struct Project_11App: App {
+struct BookwormApp: App {
     @StateObject private var dataController = DataController()
     
     var body: some Scene {
         WindowGroup {
-            CreatingBook()
+            ContentView()
                 .environment(\.managedObjectContext, dataController.containter.viewContext)
         }
     }
